@@ -1,6 +1,6 @@
 .puzzle {
     display: grid;
-    grid-template-columns: repeat(3, minmax(250px, 1fr));
+    grid-template-columns: repeat(4, minmax(150px, 250px));
     grid-template-rows: repeat(4, minmax(150px, auto));
     gap: 0px;
     grid-template-areas:
@@ -13,8 +13,6 @@
 .piece-s,
 .piece-h {
     object-fit: cover;
-    width: auto;
-    height: auto;
 }
 
 #piece01 {

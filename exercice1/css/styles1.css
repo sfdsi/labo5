@@ -3,8 +3,8 @@
 }
 .puzzle{
     display: grid;
-    grid-template-columns: repeat(3, 300px);
-    grid-template-rows: repeat(3, 300px);
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
     grid-template-areas: 
     "p6 p8 p5"
     "p9 p3 p1"
