@@ -1,0 +1,37 @@
+#conteneur{
+    font-size: 30px;
+    display: grid;
+    gap: 8px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-template-areas: 
+    "header header header header"
+    "nav nav nav nav"
+    "aside main main main"
+    "aside main main main"
+    "aside main main main"
+    "aside main main main"
+    "footer footer footer footer";
+    height: 1400px;
+}
+.cellule{
+    grid-gap: 2px;
+    background-color: turquoise;
+    padding-left: 50px;
+    padding-top: 75px;
+}
+header{
+    grid-area: header;
+}
+main{
+    grid-area: main;
+}
+aside{
+    grid-area: aside;
+}
+nav{
+    grid-area: nav;
+}
+footer{
+    grid-area: footer;
+}
